@@ -60,3 +60,6 @@ session
 less
 
 ```
+
+# Author
+Andrey Nadosha for own needs. Everyone can use if needed too.
