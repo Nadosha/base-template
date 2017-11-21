@@ -1,0 +1,12 @@
+{
+  "name": "base-meteor",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "deploy": "rm earncal.tar.gz && meteor build . && scp earncal.tar.gz " //push remote server destination
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "meteor-node-stubs": "^0.3.2"
+  }
+}
