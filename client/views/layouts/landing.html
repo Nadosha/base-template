@@ -1,0 +1,51 @@
+<template name="landing">
+    {{> sAlert}}
+    <div class="page animated" id="fullpage" style="animation-duration: 500ms;">
+        {{scrollActivation}}
+        {{> scrollTop}}
+        <!-- Page Header-->
+        {{> navbar}}
+        <!-- FScreen-->
+        <div class="tabs-horizontal"></div>
+        <!-- Small Features-->
+        <div id="services">
+            {{> services}}
+        </div>
+        <!-- Опыт-->
+        <div id="expirience">
+            {{> expirience}}
+        </div>
+        <!-- Advantages and Achievements
+        <div id="achivments">
+            {{> achivments}}
+        </div>-->
+        <!-- CTA Thin-->
+        {{> stripe}}
+        <!-- Services-->
+        <!-- Projects
+        <div id="projects">
+            {{> projects}}
+        </div>-->
+        <!-- A Few Words About Us-->
+        <div id="about">
+            {{> about }}
+        </div>
+        <!-- Recent News {{>news}}-->
+
+        <!-- Testimonials
+        <div id="testimonials">
+            {{> testimonials}}
+        </div>-->
+        <!-- Partners
+        {{> logos}}-->
+        <!-- CTA Thin
+        {{> stripe}}-->
+        <!-- Map & contacts-->
+        <div id="contact">
+            {{> contact}}
+        </div>
+        <!-- Page Footer-->
+        {{> footer}}
+    </div>
+    {{> loader}}
+</template>

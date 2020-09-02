@@ -1,0 +1,75 @@
+<template name="contact">
+    <section class="section " >
+        <div class="content-section ">
+            <div class="range justify-content-xl-between wow scale-up-ver-bottom">
+                <div class="cell-lg-6 cell-xl-5 align-self-center container">
+                    <div class="row">
+                        <div class="col-md-10 cell-inner if-small-center">
+                            <div class="section-lg inset-right-2">
+                                    <h3 class="wow-outer"><span class="wow slideInDown" >Задайте Вопрос</span></h3>
+                                    <p>Свяжитесь с нами любым удобным для вас способом</p>
+                                    <!-- RD Mailform-->
+                                    <div style="margin-top: 20px">
+                                        <a href="viber://chat?number=+380675033791" ><i class="fab fa-viber fa-4x"></i></a>
+                                        <a href="tg://resolve?domain=andriisysoiev" style="margin-left: 20px"><i class="fab fa-telegram fa-4x"></i></a>
+                                        <a href="whatsapp://send?phone=+380675033791" style="margin-left: 20px"><i class="fab fa-whatsapp fa-4x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                <div class="cell-lg-6 height-fill " style="animation-name: none; background-color:  #ecf0f1">
+                    <div class="row">
+                        <div class="col-lg-9 cell-inner" style="margin: 0 auto;">
+                            <div class="section-lg" >
+                                <!-- RD Mailform-->
+                                <form class="rd-form rd-mailform" id="contact-form" >
+                                    <div class="row row-10">
+                                        <div class="col-md-6 wow-outer">
+                                            <div class="form-wrap " >
+                                                <label class="form-label-outside" for="contact-first-name">Имя</label>
+                                                <input class="form-input form-control-has-validation form-control-last-child" id="contact-first-name" type="text" name="firstName"><span class="form-validation"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 wow-outer">
+                                            <div class="form-wrap" >
+                                                <label class="form-label-outside" for="contact-last-name">Фамилия</label>
+                                                <input class="form-input form-control-has-validation form-control-last-child" id="contact-last-name" type="text" name="secondName" ><span class="form-validation"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 wow-outer">
+                                            <div class="form-wrap " >
+                                                <label class="form-label-outside" for="contact-email">E-mail</label>
+                                                <input class="form-input form-control-has-validation form-control-last-child" id="contact-email" type="email" name="email"><span class="form-validation"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 wow-outer">
+                                            <div class="form-wrap " >
+                                                <label class="form-label-outside" for="contact-phone">Телефон</label>
+                                                <input class="form-input form-control-has-validation form-control-last-child" id="contact-phone" type="text" name="phone" placeholder="+38 (___) ___-__-__"><span class="form-validation"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 wow-outer">
+                                            <div class="form-wrap " >
+                                                <label class="form-label-outside" for="contact-message">Ваше Сообщение</label>
+                                                <textarea class="form-input form-control-has-validation form-control-last-child" id="contact-message" name="message" ></textarea><span class="form-validation"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group group-middle">
+                                        <div class="wow-outer">
+                                            <button class="button button-primary button-winona " type="submit"><div class="content-original">Отправить</div><div class="content-dubbed">Сообщение!</div></button>
+                                        </div>
+                                        <!--<p>or use</p>
+                                        <div class="wow-outer"><a class="button button-primary-outline button-icon button-icon-left button-winona wow slideInLeft" href="#" style=" animation-name: none;"><div class="content-original"><span class="icon text-primary mdi mdi-facebook-messenger"></span>Messenger</div><div class="content-dubbed"><span class="icon text-primary mdi mdi-facebook-messenger"></span>Messenger</div></a></div>-->
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>

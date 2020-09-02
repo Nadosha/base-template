@@ -1,0 +1,56 @@
+<template name="services">
+    <section class="section section-lg bg-gray-100">
+        <div class="content-section wow scale-up-ver-bottom">
+            <div class="container">
+                <h3 class="wow fadeIn"> Корпоративные финансы</h3>
+                <small style="font-size: 16px">Аудит, предложения по совершенствованию и контроль выполнения плана развития: </small>
+                <div class="row row-30">
+                    {{#each services.firstBlock}}
+                    <div class="col-sm-6 col-lg-4 wow-outer">
+                        <!-- Box Minimal-->
+                        <article class="box-minimal ">
+                            <div class="box-minimal-icon lnr lnr-chart-bars wow fadeIn" style="animation-delay: 0.2s;"></div>
+                            <div class="box-minimal-main wow-outer">
+                                <p class="wow fadeIn" >{{this}}</p>
+                            </div>
+                        </article>
+                    </div>
+                    {{/each}}
+
+
+
+
+                    <!-- Original box <div class="col-sm-6 col-lg-3 wow-outer">
+
+                        <article class="box-minimal ">
+                            <div class="box-minimal-icon lnr lnr-chart-bars wow fade-in" style="animation-delay: 0.2s;"></div>
+                            <div class="box-minimal-main wow-outer">
+                                <h4 class="box-minimal-title wow scale-up-ver-top"  style="animation-delay: 0.2s;">Финансы</h4>
+                                <p class="wow scale-up-ver-bottom" style="animation-delay: 0.2s;">Не пауло солута евертитур сит, вих нобис мелиус
+                                    реферрентур ад. Но про интегре елецтрам.</p>
+                            </div>
+                        </article>-->
+
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="wow fadeIn">Личные активы и финансы Владельцев бизнеса</h3>
+                <div class="row row-30">
+
+                    <hr>
+                    {{#each services.secondBlock}}
+                        <div class="col-sm-6 col-lg-6 wow-outer">
+                            <!-- Box Minimal-->
+                            <article class="box-minimal ">
+                                <div class="box-minimal-icon lnr lnr-briefcase wow fadeIn" style="animation-delay: 0.2s;"></div>
+                                <div class="box-minimal-main wow-outer">
+                                    <p class="wow fadeIn" >{{this}}</p>
+                                </div>
+                            </article>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </section>
+</template>

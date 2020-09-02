@@ -2,11 +2,13 @@
   "name": "base-meteor",
   "private": true,
   "scripts": {
-    "start": "meteor run",
-    "deploy": "rm earncal.tar.gz && meteor build . && scp earncal.tar.gz " //push remote server destination
+    "start": "MAIL_URL=smtps://to-the-stars@techcreationcompany.com:0vySBDgApW0BHPbw@smtp.gmail.com:465 MONGO_URL=mongodb://127.0.0.1:27017/meteor meteor run --port 3000",
+    "deploy": "rm project.tar.gz && meteor build . && scp project.tar.gz root@159.89.22.118:site/sysoev/pack ",
+    "remote": "ssh root@159.89.22.118"
   },
   "dependencies": {
+    "@babel/runtime": "^7.1.5",
     "babel-runtime": "^6.26.0",
-    "meteor-node-stubs": "^0.3.2"
+    "meteor-node-stubs": "^0.3.3"
   }
 }
